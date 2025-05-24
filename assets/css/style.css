@@ -709,6 +709,7 @@ header {
 .back-card, .front-card {
     padding: 10px;
     width: 100%;
+	height: 306px;
     backface-visibility: hidden;
 }
 .back-card {
