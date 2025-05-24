@@ -3,6 +3,7 @@ body {
     color: #ccceef;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+	overflow-x:hidden;
 }
 #myBtn {
   display: none;
