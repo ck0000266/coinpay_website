@@ -23,6 +23,11 @@ body {
   cursor: pointer;
   padding: 15px;
 }
+.wrapper {
+    position: relative;
+    margin-top: -12%;
+    z-index: 1;
+}
 /*header section start*/
 header {
     line-height: 60px;
@@ -323,6 +328,11 @@ header {
 /* banner section end */
 
 /* swipe slider start */
+.swiper-slider {
+    position: relative;
+    margin-top: -5%;
+    z-index: 1;
+}
 .marquee {
     overflow: hidden;
 }
@@ -658,9 +668,12 @@ header {
     background-image: url(../images/shape_circle_1.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 50%;
-    height: 50%;
+    width: 150px;
+    height: 150px;
     padding: 5px;
+}
+.front-card span img {
+    width: 100%;
 }
 .card-main-box:nth-child(1) .front-card span {
     background-image: url(../images/shape_circle_1.svg);
@@ -814,6 +827,11 @@ header {
 /*faq section end*/
 
 /*footer section start*/
+.footer-section {
+    position: relative;
+    z-index: 1;
+    margin-top: -6%;
+}
 .border-top-bottom {
     border-top: 1px solid #2f336d;
     border-bottom: 1px solid #2f336d;
